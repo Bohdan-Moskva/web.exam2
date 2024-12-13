@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Забезпечення шкіл комп'ютерами</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Місто</th>
+                <th>Модель</th>
+                <th>Рік випуску (2019)</th>
+                <th>Рік випуску (2020)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Яворів</td>
+                <td>Intel</td>
+                <td>15</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Яворів</td>
+                <td>AMD</td>
+                <td>25</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Львів</td>
+                <td>Intel</td>
+                <td>1000</td>
+                <td>205</td>
+            </tr>
+            <tr>
+                <td>Львів</td>
+                <td>AMD</td>
+                <td>2000</td>
+                <td>3000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
